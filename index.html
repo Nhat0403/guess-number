@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đoán số</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section id="main">
+      <div class="top flex">
+        <button class="btn btn-again">Again!</button>
+        <div class="desc text">&lt;Between 1 and 20&gt;</div>
+        <h1 class="title">Guess My Number!</h1>
+        <div class="secret flex">?</div>
+      </div>
+      <div class="bottom">
+        <div class="left flex">
+          <div class="input-border">
+            <input type="number" name="guess" class="guess" min="1" max="20" />
+          </div>
+          <button class="btn btn-check">Check!</button>
+        </div>
+        <div class="right flex">
+          <div class="messenger text">Start guessing...</div>
+          <div class="text-container">
+            <div class="text">💯 Score: <span class="score">20</span></div>
+            <div class="text">
+              🏅 Highscore: <span class="highscore">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
